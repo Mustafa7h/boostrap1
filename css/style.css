@@ -1,0 +1,317 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home {
+    background-image: url(../imgs/header-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.home .home-layer {
+    background-color: rgba(0, 0, 0, 0.69);
+    width: 100%;
+    height: 100%;
+}
+
+.home .home-content h1::after {
+    content: "";
+    color: #fff;
+    animation-name: typing;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "";
+    }
+
+    5% {
+        content: "|";
+    }
+
+    12% {
+        content: " A|";
+    }
+
+    15% {
+        content: " A P|";
+    }
+
+    20% {
+        content: " A Ph|";
+    }
+
+    24% {
+        content: " A Pho|";
+    }
+
+    29% {
+        content: " A Phot|";
+    }
+
+    34% {
+        content: " A Photo|";
+    }
+
+    39% {
+        content: " A Photog|";
+    }
+
+    40% {
+        content: " A Photogr|";
+    }
+
+    40% {
+        content: " A Photogra|";
+    }
+
+    45% {
+        content: " A Photograp|";
+    }
+
+    48% {
+        content: " A Photograph|";
+    }
+
+    50% {
+        content: " A Photographe|";
+    }
+
+    55% {
+        content: " A Photographer.|";
+    }
+
+    60% {
+        content: " A Photographe|";
+    }
+
+    64% {
+        content: " A Photograph|";
+    }
+
+    66% {
+        content: " A Photograp|";
+    }
+
+    70% {
+        content: " A Photogra|";
+    }
+
+    75% {
+        content: " A Photogr|";
+    }
+
+    77% {
+        content: " A Photog|";
+    }
+
+    80% {
+        content: " A Photo|";
+    }
+
+    85% {
+        content: " A Phot|";
+    }
+
+    88% {
+        content: " A Pho|";
+    }
+
+    90% {
+        content: " A P|";
+    }
+
+    95% {
+        content: " A |";
+    }
+
+    100% {
+        content: "|";
+    }
+
+}
+
+.nav-item .col-re {
+    color: #E65f78 !important;
+}
+
+.nav-item a {
+    transition: color 1s;
+}
+
+.nav-item:hover a {
+    color: #E65f78;
+}
+
+.home .home-content h1 {
+    font-size: 54px;
+}
+
+.home .home-content p {
+    max-width: 500px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.home .home-content a {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    transition: all 1s;
+}
+
+.home .home-content a:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.about .container h4 span {
+    color: rgb(230, 95, 120);
+}
+
+.social-icons .i:hover {
+    color: #E65f78;
+    border-color: #E65f78;
+}
+
+.social-icons .i {
+    transition: all 1s;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #d4d4d4;
+    line-height: 38px;
+    cursor: pointer;
+}
+
+.services .info h4::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #e65f78;
+    width: 15%;
+    left: 42%;
+    bottom: -11px;
+    transition: all 1s;
+}
+
+.services .info h4:hover::after {
+    transform: scale(1.3, 1.3);
+}
+
+
+.header p {
+    max-width: 500px;
+    line-height: 1.8;
+}
+
+.carousel-inner .info .header {
+    max-width: 800px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.services .container .info {
+    border: 1px solid #e8e8e8;
+    border-radius: 9px;
+}
+
+.services .icon {
+    font-size: 44px;
+    color: #E65f78;
+}
+
+.Our-services .container .btn-custom {
+    background-color: #E65f78;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    background-color: #E65f78;
+    transition: all 1s ease-in-out;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+    transform: scale(1.5);
+}
+
+.Our-Works .nav .bg-dd {
+    background-color: #E65f78;
+    color: #fff;
+}
+
+.Our-Works .nav a {
+    cursor: pointer;
+    color: #000;
+    border-radius: 30px;
+    letter-spacing: 0.03em;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px 16px;
+    margin-top: 5px;
+    transition: all 1s;
+}
+
+.Our-Works .nav a:hover {
+    background-color: #E65f78;
+    color: #fff;
+}
+
+.Our-Works .text {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    overflow: auto;
+    transition: all 1s ease-in-out;
+}
+
+.Our-Works .text:hover {
+    opacity: 1;
+    transform: scale(1.1);
+
+}
+
+
+.Our-Blog .container .card {
+    border: none;
+}
+
+.foot {
+    background-color: #212529;
+}
+
+.foot .social-icons .i {
+    text-decoration: none;
+    color: #ababab;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.foot .copyright_content {
+    color: #ababab;
+}
+
+
+.Contact-Us .icon {
+    color: #E65f78;
+}
+
+.Contact-Us .bg-dr {
+    background-color: #E65f78;
+    color: #fff;
+}
